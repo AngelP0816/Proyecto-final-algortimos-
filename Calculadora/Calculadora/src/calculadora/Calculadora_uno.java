@@ -82,6 +82,11 @@ public class Calculadora_uno extends javax.swing.JFrame {
                 btn_raizMouseClicked(evt);
             }
         });
+        btn_raiz.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_raizActionPerformed(evt);
+            }
+        });
 
         btn_cotangente.setText("cot");
         btn_cotangente.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -494,7 +499,7 @@ public class Calculadora_uno extends javax.swing.JFrame {
 
     private void btn_raizMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn_raizMouseClicked
        metodox.raiz(txt.getText()); // TODO add your handling code here:
-       txt.setText("");
+      
     }//GEN-LAST:event_btn_raizMouseClicked
 
     private void btn_cotangenteMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn_cotangenteMouseClicked
@@ -538,6 +543,10 @@ txt.setText("");
     private void btn_limpiarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_limpiarActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_btn_limpiarActionPerformed
+
+    private void btn_raizActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_raizActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn_raizActionPerformed
 
     /**
      * @param args the command line arguments

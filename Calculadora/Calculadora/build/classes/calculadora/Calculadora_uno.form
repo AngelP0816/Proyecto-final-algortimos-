@@ -193,6 +193,7 @@
           </Properties>
           <Events>
             <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btn_raizMouseClicked"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_raizActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="btn_cotangente">
